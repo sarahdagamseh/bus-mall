@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100% ;
+    background: url("/images/blue.jpg") no-repeat center fixed;
+    background-size:cover;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+
+    font-size: 100px;
+    text-align: center;
+    color:teal;
+}
+
+
+header nav ul li {
+    color: tomato;
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+
+  }
+
+  h2{
+    font-size: 40px;
+    text-align:left;
+    margin: 25px;
+    color: rgb(19, 85, 19);
+    font-family: 'Indie Flower', cursive;
+}
+footer{
+    text-align-last: center;
+    color: lightcoral;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+
+}
