@@ -46,5 +46,21 @@ function Products (name){
 
 Products.all=[];
 
+for(let i = 0; i<length ; i++)
+{
+  number = Math.floor(Math.random()*(max-min)+min);
+  // randomNumbers.push(number);
+  console.log('index is ', randomNumbers.indexOf(number));
+  if(posiible && !repeatedAllowed && randomNumbers.indexOf(number)===-1)
+
+    randomNumbers.push(number);
+
+  else if(posiible && !repeatedAllowed)
+    i--;
+  else
+    randomNumbers.push(number);
+}
+return randomNumbers;
+}
 
 
